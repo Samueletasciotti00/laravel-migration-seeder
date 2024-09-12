@@ -23,6 +23,8 @@ return new class extends Migration
             $table->boolean('puntuale');
             $table->string('in_ritardo');
             $table->boolean('cancellato');
+            $table->date('data_di_partenza');
+
             $table->timestamps();
         });
     }

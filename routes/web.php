@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
+// Utilizzo del page controller per gestione delle function;
+use App\Http\Controllers\PageController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,16 +15,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    $title = 'Layout base - HOME';
-    $text = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo modi, iusto dolore eaque laudantium optio, adipisci perspiciatis voluptate obcaecati sit perferendis natus velit ut! Tempora voluptatum ipsam modi rem voluptas.';
-    return view('home', compact('text', 'title'));
-})->name('home');
+//Home
+Route::get('/',[PageController::class,'index'])->name('home');
 
-Route::get('/chi-siamo', function () {
-    return view('about');
-})->name('about');
-
-Route::get('/contatti', function () {
-    return view('contacts');
-})->name('contacts');
+//Train
+Route::get('/treni', [PageController::class,'trains'])->name('trains');
