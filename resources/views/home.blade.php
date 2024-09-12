@@ -3,16 +3,18 @@
 
 
 @section('content')
-<div class="container my-5">
+<div class="container my-5 text-center">
     <h1>Home</h1>
-        <!-- Welcome -->
-        <span>Welcome</span>
-    </p>
+    <!-- Welcome -->
+    <h2>Welcome</h2>
+    
+    <!-- Paragrafo -->
+    <span>Vai nella sezione treni per scegliere il tuo viaggio</span>
 </div>
 
 @endsection
 
 
 @section('titlePage')
-    home
+home
 @endsection

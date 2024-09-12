@@ -11,16 +11,16 @@
         <table class="table">
             <thead>
                 <tr>
-                    <th scope="col">Company</th>
-                    <th scope="col">Partenze</th>
-                    <th scope="col">Arrivi</th>
-                    <th scope="col">OrarioPartenza</th>
-                    <th scope="col">OrarioArrivo</th>
-                    <th scope="col">CODE</th>
-                    <th scope="col">N Carrozze</th>
-                    <th scope="col">Puntualità</th>
-                    <th scope="col">Cancellato</th>
-                    <th scope="col">Data di partenza</th>
+                    <th class="table-primary">Company</th>
+                    <th class="table-primary">Partenze</th>
+                    <th class="table-primary">Arrivi</th>
+                    <th class="table-primary">OrarioPartenza</th>
+                    <th class="table-primary">OrarioArrivo</th>
+                    <th class="table-primary">CODE</th>
+                    <th class="table-primary">N Carrozze</th>
+                    <th class="table-primary">Puntualità</th>
+                    <th class="table-primary">Cancellato</th>
+                    <th class="table-primary">Data di partenza</th>
                 </tr>
             </thead>
             <tbody>
