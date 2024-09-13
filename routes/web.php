@@ -18,5 +18,11 @@ use App\Http\Controllers\PageController;
 //Home
 Route::get('/',[PageController::class,'index'])->name('home');
 
-//Train
+//Trains
 Route::get('/treni', [PageController::class,'trains'])->name('trains');
+
+//Filtered Trains
+Route::get('/now',[PageController::class,'nowTrains'])->name('now_trains');
+
+//Packages
+Route::get('/packages',[PageController::class,'packages'])->name('packages');

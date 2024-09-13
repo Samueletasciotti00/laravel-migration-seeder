@@ -10,6 +10,8 @@
         <div class="navbar-nav">
             <a class="nav-link" href="{{ route('home') }}">Home</a>
             <a class="nav-link" href="{{ route('trains') }}">Treni</a>
+            <a class="nav-link" href="{{ route('now_trains') }}">Last Minut</a>
+            <a class="nav-link" href="{{ route('packages') }}">Offerte</a>
         </div>
       </div>
     </div>

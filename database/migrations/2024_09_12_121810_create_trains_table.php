@@ -26,7 +26,7 @@ return new class extends Migration
             $table->date('data_di_partenza');
 
             $table->timestamps();
-        });
+        });        
     }
 
     /**
